@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<settings xmlns="http://maven.apache.org/settings/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/settings/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+	<pluginGroups>
+		<pluginGroup>com.updateimpact</pluginGroup>
+	</pluginGroups>
+	<profiles>
+		<profile>
+			<id>updateimpact</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<updateimpact.apikey>${env.API_KEY}</updateimpact.apikey>
+				<updateimpact.openbrowser>false</updateimpact.openbrowser>
+			</properties>
+		</profile>
+	</profiles>
+</settings>

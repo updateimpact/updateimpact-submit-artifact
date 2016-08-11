@@ -1,0 +1,14 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.updateimpact</groupId>
+  <artifactId>single</artifactId>
+  <version>1</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>${env.GROUP_ID}</groupId>
+      <artifactId>${env.ARTIFACT_ID}</artifactId>
+      <version>${env.VERSION}</version>
+    </dependency>
+  </dependencies>
+</project>
